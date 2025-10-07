@@ -1,0 +1,62 @@
+﻿@model string
+
+@{
+    ViewBag.Title = "Index";
+}
+
+<h2>Console Output</h2>
+
+<p>
+    The area below is a dump of the console output that is being refreshed each second. Background jobs
+    write a message to the console, so you can see it was performed.
+</p>
+
+<pre id="buffer" data-url="@(Url.Action("Buffer", "Home"))">@Model</pre>
+
+<script>
+    var objDiv = document.getElementById("buffer");
+    objDiv.scrollTop = objDiv.scrollHeight;
+</script>
+
+<div style="display: flex">
+    <div>
+        @using (Html.BeginForm("StartServer", "Home"))
+        {
+            <button class="btn btn-primary" type="submit">Start OPC Server</button>
+        }
+    </div>
+    <div>
+        @using (Html.BeginForm("StartSuscriber", "Home"))
+        {
+            <button class="btn btn-primary" type="submit">Start Suscriber</button>
+        }
+    </div>
+    <div>
+        @using (Html.BeginForm("AddWriter", "Home"))
+        {
+            <button class="btn btn-primary" type="submit">Add Writer</button>
+        }
+    </div>
+    <div>
+        @using (Html.BeginForm("AddReader", "Home"))
+        {
+            <button class="btn btn-primary" type="submit">Add Reader</button>
+        }
+    </div>
+    <div>
+        @using (Html.BeginForm("StopServer", "Home"))
+        {
+            <button class="btn btn-warning" type="submit">Stop OPC Server</button>
+        }
+    </div>
+    <div>
+        @using (Html.BeginForm("StopSuscriber", "Home"))
+        {
+            <button class="btn btn-warning" type="submit">Stop Suscriber</button>
+        }
+    </div>
+    <div>
+        <a class="btn btn-default" href="@Url.Content("~/hangfire")">Visit Dashboard</a>
+    </div>
+</div>
+

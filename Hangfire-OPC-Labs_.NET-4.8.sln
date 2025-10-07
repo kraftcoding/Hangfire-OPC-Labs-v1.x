@@ -1,0 +1,83 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio Version 17
+VisualStudioVersion = 17.14.36518.9
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Hangfire.MvcApplication", "Hangfire.MvcApplication\Hangfire.MvcApplication.csproj", "{27D5C2D5-D5E5-4DE5-8B65-D790AC5E5780}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = ".nuget", ".nuget", "{AE47E758-1B9D-40E6-ADF6-75B791AB8593}"
+	ProjectSection(SolutionItems) = preProject
+		.nuget\NuGet.Config = .nuget\NuGet.Config
+		.nuget\NuGet.exe = .nuget\NuGet.exe
+		.nuget\NuGet.targets = .nuget\NuGet.targets
+	EndProjectSection
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Hangfire.ConsoleApplication", "Hangfire.ConsoleApplication\Hangfire.ConsoleApplication.csproj", "{117ADE03-9367-4A35-B3AF-359C4E10488B}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Resources", "Resources", "{02EA681E-C7D8-13C7-8484-4AC65E1B71E8}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "extern", "extern", "{063E111B-5283-4209-B1FF-549ED90BBF23}"
+	ProjectSection(SolutionItems) = preProject
+		extern-bin\Interop.ActiveDs.dll = extern-bin\Interop.ActiveDs.dll
+		extern-bin\Interop.NetFwTypeLib.dll = extern-bin\Interop.NetFwTypeLib.dll
+		extern-bin\Opc.Ua.ComInterop.dll = extern-bin\Opc.Ua.ComInterop.dll
+	EndProjectSection
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "opc", "opc", "{9934C257-7E2B-45CC-BB27-355EDE6B7BAB}"
+	ProjectSection(SolutionItems) = preProject
+		opc-ua\Interop.NetFwTypeLib.dll = opc-ua\Interop.NetFwTypeLib.dll
+		opc-ua\Opc.Ua.Client.dll = opc-ua\Opc.Ua.Client.dll
+		opc-ua\Opc.Ua.Client.pdb = opc-ua\Opc.Ua.Client.pdb
+		opc-ua\Opc.Ua.ClientControls.dll = opc-ua\Opc.Ua.ClientControls.dll
+		opc-ua\Opc.Ua.ClientControls.pdb = opc-ua\Opc.Ua.ClientControls.pdb
+		opc-ua\Opc.Ua.Configuration.dll = opc-ua\Opc.Ua.Configuration.dll
+		opc-ua\Opc.Ua.Configuration.pdb = opc-ua\Opc.Ua.Configuration.pdb
+		opc-ua\Opc.Ua.Core.dll = opc-ua\Opc.Ua.Core.dll
+		opc-ua\Opc.Ua.Core.pdb = opc-ua\Opc.Ua.Core.pdb
+		opc-ua\Opc.Ua.Server.dll = opc-ua\Opc.Ua.Server.dll
+		opc-ua\Opc.Ua.Server.pdb = opc-ua\Opc.Ua.Server.pdb
+	EndProjectSection
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "labs", "labs", "{17CD06A3-F1C2-4662-91B8-FC78A162A237}"
+	ProjectSection(SolutionItems) = preProject
+		opc-labs\DB.ModelLib.dll = opc-labs\DB.ModelLib.dll
+		opc-labs\DB.ModelLib.pdb = opc-labs\DB.ModelLib.pdb
+		opc-labs\GenericUAServerModel.dll = opc-labs\GenericUAServerModel.dll
+		opc-labs\GenericUAServerModel.pdb = opc-labs\GenericUAServerModel.pdb
+		opc-labs\Hangfire.OPC.JobLib.dll = opc-labs\Hangfire.OPC.JobLib.dll
+		opc-labs\Hangfire.OPC.JobLib.pdb = opc-labs\Hangfire.OPC.JobLib.pdb
+		opc-labs\OPCFoundation.ClientLib.dll = opc-labs\OPCFoundation.ClientLib.dll
+		opc-labs\OPCFoundation.ClientLib.pdb = opc-labs\OPCFoundation.ClientLib.pdb
+		opc-labs\OPCFoundation.ServerLib.dll = opc-labs\OPCFoundation.ServerLib.dll
+		opc-labs\OPCFoundation.ServerLib.pdb = opc-labs\OPCFoundation.ServerLib.pdb
+		opc-labs\OPCFoundation.TaskLib.dll = opc-labs\OPCFoundation.TaskLib.dll
+		opc-labs\OPCFoundation.TaskLib.pdb = opc-labs\OPCFoundation.TaskLib.pdb
+	EndProjectSection
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{27D5C2D5-D5E5-4DE5-8B65-D790AC5E5780}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{27D5C2D5-D5E5-4DE5-8B65-D790AC5E5780}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{27D5C2D5-D5E5-4DE5-8B65-D790AC5E5780}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{27D5C2D5-D5E5-4DE5-8B65-D790AC5E5780}.Release|Any CPU.Build.0 = Release|Any CPU
+		{117ADE03-9367-4A35-B3AF-359C4E10488B}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{117ADE03-9367-4A35-B3AF-359C4E10488B}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{117ADE03-9367-4A35-B3AF-359C4E10488B}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{117ADE03-9367-4A35-B3AF-359C4E10488B}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(NestedProjects) = preSolution
+		{063E111B-5283-4209-B1FF-549ED90BBF23} = {02EA681E-C7D8-13C7-8484-4AC65E1B71E8}
+		{9934C257-7E2B-45CC-BB27-355EDE6B7BAB} = {02EA681E-C7D8-13C7-8484-4AC65E1B71E8}
+		{17CD06A3-F1C2-4662-91B8-FC78A162A237} = {02EA681E-C7D8-13C7-8484-4AC65E1B71E8}
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+		SolutionGuid = {0CB57C85-D2F4-4BEA-9798-C7EEACA9E013}
+	EndGlobalSection
+EndGlobal
