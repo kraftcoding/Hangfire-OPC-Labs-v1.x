@@ -1,6 +1,6 @@
-# Hangfire-Samples-.NET-4.8
+# Hangfire-OPC-Labs_.NET-4.8
 
-Sample projects for Hangfire with minimal functionality.
+Solution containing MVC application with Hangfire (includes a console and Windows server project for Hangfire).
 
 ## Requirements
 
