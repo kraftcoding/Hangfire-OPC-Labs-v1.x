@@ -66,7 +66,8 @@
     <Reference Include="Hangfire.OPC.Configuration">
       <HintPath>..\opc-labs\Hangfire.OPC.Configuration.dll</HintPath>
     </Reference>
-    <Reference Include="Hangfire.OPC.JobLib">
+    <Reference Include="Hangfire.OPC.JobLib, Version=1.0.0.0, Culture=neutral, processorArchitecture=MSIL">
+      <SpecificVersion>False</SpecificVersion>
       <HintPath>..\opc-labs\Hangfire.OPC.JobLib.dll</HintPath>
     </Reference>
     <Reference Include="Hangfire.SqlServer, Version=1.8.21.0, Culture=neutral, processorArchitecture=MSIL">
@@ -112,8 +113,7 @@
       <SpecificVersion>False</SpecificVersion>
       <HintPath>..\opc-labs\OPCFoundation.ServerLib.dll</HintPath>
     </Reference>
-    <Reference Include="OPCFoundation.TaskLib, Version=1.0.0.0, Culture=neutral, processorArchitecture=MSIL">
-      <SpecificVersion>False</SpecificVersion>
+    <Reference Include="OPCFoundation.TaskLib">
       <HintPath>..\opc-labs\OPCFoundation.TaskLib.dll</HintPath>
     </Reference>
     <Reference Include="Owin">
