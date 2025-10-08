@@ -2,6 +2,7 @@
 using System.Web.Mvc;
 using System.Web.Routing;
 using Hangfire.Logging;
+using Hangfire.OPC.Configuration.Logs;
 
 namespace Hangfire.MvcApplication
 {

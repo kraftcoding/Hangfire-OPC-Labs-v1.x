@@ -1,5 +1,6 @@
-﻿using OPCFoundation.ServerLib.Constants;
-using OPCFoundation.ServerLib.Jobs;
+﻿using Hangfire.OPC.Configuration.Logs;
+using Hangfire.OPC.JobLib.Constants;
+using Hangfire.OPC.JobLib.Jobs;
 using System;
 using System.Configuration;
 using System.Web.Mvc;

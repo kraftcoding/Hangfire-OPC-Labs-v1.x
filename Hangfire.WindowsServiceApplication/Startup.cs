@@ -1,7 +1,8 @@
-﻿using Hangfire.SqlServer;
+﻿using Hangfire.OPC.Configuration.Logs;
+using Hangfire.OPC.JobLib.Constants;
+using Hangfire.OPC.JobLib.Jobs;
+using Hangfire.SqlServer;
 using Microsoft.Owin;
-using OPCFoundation.ServerLib.Constants;
-using OPCFoundation.ServerLib.Jobs;
 using Owin;
 using System;
 using System.Configuration;
@@ -25,6 +26,10 @@ namespace Hangfire.WindowsServiceApplication
 
             app.UseHangfireDashboard();
             app.UseHangfireServer();
+
+            // Add a filter to log everything
+
+            GlobalJobFilters.Filters.Add(new LogEverythingAttribute());
 
             BackgroundJob.Enqueue(() => ServerJob.Init(InitConstants.SERVER_JOB_FILE, filesPath));
             BackgroundJob.Schedule(() => SuscribeNodesClientJob.Init(InitConstants.SUBSCRIBE_NODES_CLIENT_JOB_FILE, filesPath), TimeSpan.FromMinutes(1));
