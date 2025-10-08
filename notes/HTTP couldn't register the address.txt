@@ -1,0 +1,19 @@
+HTTP couldn't register the address URL http://
+
+{"HTTP no pudo registrar la dirección URL http://+:62543/LocalServer/. El proceso no tiene derechos de acceso a este espacio de nombres (consulte http://go.microsoft.com/fwlink/?LinkId=70353 para obtener más información)."}
+
+netsh http add urlacl url=http://+:62543/LocalServer/ user=IIS APPPOOL\HangfireJobs
+
+
+netsh advfirewall firewall set rule name="Servicios World Wide Web (entrada de tráfico HTTPS)" new enable=yes
+
+
+netsh http add urlacl url=http://+:62543/LocalServer/ user=Everyone
+
+netsh http add urlacl url=http://+:62543/ user=Everyone
+
+
+
+netsh http add urlacl url=http://+:62543/LocalServer/ user=PGES632F5X3\hangfire
+netsh http add urlacl url=http://+:62543/ user=PGES632F5X3\hangfire
+

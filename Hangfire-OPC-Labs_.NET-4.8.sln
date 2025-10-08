@@ -64,6 +64,16 @@ Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "config-files", "config-file
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Hangfire.WindowsServiceApplication", "Hangfire.WindowsServiceApplication\Hangfire.WindowsServiceApplication.csproj", "{1A41F355-A3AD-4A52-B857-B9C4FB3668CD}"
 EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "notes", "notes", "{4D76D880-445C-43F1-B069-DA22C3614AF7}"
+	ProjectSection(SolutionItems) = preProject
+		notes\HTTP couldn't register the address.txt = notes\HTTP couldn't register the address.txt
+	EndProjectSection
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "scripts", "scripts", "{CC9CE806-4C14-4DE0-A18A-F2149E354452}"
+	ProjectSection(SolutionItems) = preProject
+		scripts\Get_NodeData.sql = scripts\Get_NodeData.sql
+	EndProjectSection
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
@@ -91,6 +101,8 @@ Global
 		{9934C257-7E2B-45CC-BB27-355EDE6B7BAB} = {02EA681E-C7D8-13C7-8484-4AC65E1B71E8}
 		{17CD06A3-F1C2-4662-91B8-FC78A162A237} = {02EA681E-C7D8-13C7-8484-4AC65E1B71E8}
 		{6DBCD2E2-92F5-4F65-9215-C053A2E68086} = {02EA681E-C7D8-13C7-8484-4AC65E1B71E8}
+		{4D76D880-445C-43F1-B069-DA22C3614AF7} = {02EA681E-C7D8-13C7-8484-4AC65E1B71E8}
+		{CC9CE806-4C14-4DE0-A18A-F2149E354452} = {02EA681E-C7D8-13C7-8484-4AC65E1B71E8}
 	EndGlobalSection
 	GlobalSection(ExtensibilityGlobals) = postSolution
 		SolutionGuid = {0CB57C85-D2F4-4BEA-9798-C7EEACA9E013}
