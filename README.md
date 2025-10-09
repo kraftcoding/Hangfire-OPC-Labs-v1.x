@@ -1,6 +1,6 @@
 # Hangfire-OPC-Labs_.NET-4.8
 
-Solution containing MVC application with Hangfire (includes a console and Windows server project for Hangfire).
+This solution contains a standard .NET 4.8 MVC project by which the Hangfire server	 is managed. It includes two projects, a console application for tests and a windows service project.
 
 ## Requirements
 
