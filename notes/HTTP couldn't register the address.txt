@@ -1,4 +1,3 @@
-HTTP couldn't register the address URL http://
 
 {"HTTP no pudo registrar la dirección URL http://+:62543/LocalServer/. El proceso no tiene derechos de acceso a este espacio de nombres (consulte http://go.microsoft.com/fwlink/?LinkId=70353 para obtener más información)."}
 
