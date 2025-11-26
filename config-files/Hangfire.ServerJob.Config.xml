@@ -4,8 +4,8 @@
   xmlns:ua="http://opcfoundation.org/UA/2008/02/Types.xsd"
   xmlns="http://opcfoundation.org/UA/SDK/Configuration.xsd"
 >
-	<ApplicationName>Temperature Server</ApplicationName>
-	<ApplicationUri>urn:localhost:UASDK:LocalServer</ApplicationUri>
+	<ApplicationName>Local OPC Server</ApplicationName>
+	<ApplicationUri>urn:localhost:UA:SuaccOne</ApplicationUri>
 	<ProductUri>http://opcfoundation.org/LocalServer</ProductUri>
 	<ApplicationType>Server_0</ApplicationType>
 
@@ -15,7 +15,7 @@
 		<ApplicationCertificate>
 			<StoreType>Directory</StoreType>
 			<StorePath>%CommonApplicationData%\OPC Foundation\CertificateStores\MachineDefault</StorePath>
-			<SubjectName>SimpleServer AlarmCondition Server</SubjectName>
+			<SubjectName>Simple UA Client Connectivity</SubjectName>
 		</ApplicationCertificate>
 
 		<!-- Where the trust list is stored (UA Applications) -->

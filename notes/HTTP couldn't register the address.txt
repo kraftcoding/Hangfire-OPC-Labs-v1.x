@@ -1,18 +1,14 @@
 
 {"HTTP no pudo registrar la dirección URL http://+:62543/LocalServer/. El proceso no tiene derechos de acceso a este espacio de nombres (consulte http://go.microsoft.com/fwlink/?LinkId=70353 para obtener más información)."}
 
-netsh http add urlacl url=http://+:62543/LocalServer/ user=IIS APPPOOL\HangfireJobs
-
-
 netsh advfirewall firewall set rule name="Servicios World Wide Web (entrada de tráfico HTTPS)" new enable=yes
 
+THIS ONE FOR DEV -->  etsh http add urlacl url=http://+:62543/LocalServer/ user=Everyone
+THIS ONE FOR DEV -->  netsh http add urlacl url=http://+:62543/ user=Everyone
 
-netsh http add urlacl url=http://+:62543/LocalServer/ user=Everyone
+// Didn't work for me:
 
-netsh http add urlacl url=http://+:62543/ user=Everyone
-
-
-
-netsh http add urlacl url=http://+:62543/LocalServer/ user=PGES632F5X3\hangfire
-netsh http add urlacl url=http://+:62543/ user=PGES632F5X3\hangfire
+netsh http add urlacl url=http://+:62543/LocalServer/ user=IIS APPPOOL\Hangfire
+netsh http add urlacl url=http://+:62543/ user=PIIS APPPOOL\Hangfire
+netsh http add urlacl url=http://+:62543/LocalServer/ user=IIS APPPOOL\HangfireJobs
 

@@ -15,6 +15,11 @@ EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Hangfire.ConsoleApplication", "Hangfire.ConsoleApplication\Hangfire.ConsoleApplication.csproj", "{117ADE03-9367-4A35-B3AF-359C4E10488B}"
 EndProject
 Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Resources", "Resources", "{02EA681E-C7D8-13C7-8484-4AC65E1B71E8}"
+	ProjectSection(SolutionItems) = preProject
+		OPC.UA.CertificateGenerator (tested).zip = OPC.UA.CertificateGenerator (tested).zip
+		Opc.Ua.ConfigurationTool.zip = Opc.Ua.ConfigurationTool.zip
+		UaExpert.zip = UaExpert.zip
+	EndProjectSection
 EndProject
 Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "extern", "extern", "{063E111B-5283-4209-B1FF-549ED90BBF23}"
 	ProjectSection(SolutionItems) = preProject
@@ -41,11 +46,15 @@ EndProject
 Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "labs", "labs", "{17CD06A3-F1C2-4662-91B8-FC78A162A237}"
 	ProjectSection(SolutionItems) = preProject
 		opc-labs\DB.ModelLib.dll = opc-labs\DB.ModelLib.dll
+		opc-labs\DB.ModelLib.dll.config = opc-labs\DB.ModelLib.dll.config
 		opc-labs\DB.ModelLib.pdb = opc-labs\DB.ModelLib.pdb
-		opc-labs\GenericUAServerModel.dll = opc-labs\GenericUAServerModel.dll
-		opc-labs\GenericUAServerModel.pdb = opc-labs\GenericUAServerModel.pdb
+		opc-labs\Hangfire.OPC.Configuration.dll = opc-labs\Hangfire.OPC.Configuration.dll
+		opc-labs\Hangfire.OPC.Configuration.pdb = opc-labs\Hangfire.OPC.Configuration.pdb
 		opc-labs\Hangfire.OPC.JobLib.dll = opc-labs\Hangfire.OPC.JobLib.dll
 		opc-labs\Hangfire.OPC.JobLib.pdb = opc-labs\Hangfire.OPC.JobLib.pdb
+		opc-labs\Model.GenericUAServer.dll = opc-labs\Model.GenericUAServer.dll
+		opc-labs\Model.GenericUAServer.dll.config = opc-labs\Model.GenericUAServer.dll.config
+		opc-labs\Model.GenericUAServer.pdb = opc-labs\Model.GenericUAServer.pdb
 		opc-labs\OPCFoundation.ClientLib.dll = opc-labs\OPCFoundation.ClientLib.dll
 		opc-labs\OPCFoundation.ClientLib.pdb = opc-labs\OPCFoundation.ClientLib.pdb
 		opc-labs\OPCFoundation.ServerLib.dll = opc-labs\OPCFoundation.ServerLib.dll
@@ -67,11 +76,18 @@ EndProject
 Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "notes", "notes", "{4D76D880-445C-43F1-B069-DA22C3614AF7}"
 	ProjectSection(SolutionItems) = preProject
 		notes\HTTP couldn't register the address.txt = notes\HTTP couldn't register the address.txt
+		notes\Issues = notes\Issues
 	EndProjectSection
 EndProject
 Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "scripts", "scripts", "{CC9CE806-4C14-4DE0-A18A-F2149E354452}"
 	ProjectSection(SolutionItems) = preProject
 		scripts\Get_NodeData.sql = scripts\Get_NodeData.sql
+	EndProjectSection
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Docs", "Docs", "{61B1893C-B791-4438-B5EF-86452D53B0D4}"
+	ProjectSection(SolutionItems) = preProject
+		docs\OPC Foundation Client-Server Solution - Technical Document.odt = docs\OPC Foundation Client-Server Solution - Technical Document.odt
+		docs\OPC Foundation Client-Server Solution - Technical Document.pdf = docs\OPC Foundation Client-Server Solution - Technical Document.pdf
 	EndProjectSection
 EndProject
 Global

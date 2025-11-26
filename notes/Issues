@@ -1,0 +1,4 @@
+1.- Server does not have a certificate (windows server create self signed certificate)
+2.- UA Configuration tool, can handle firewall config
+3.- Server is not registered
+
