@@ -85,6 +85,10 @@ Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "scripts", "scripts", "{CC9C
 	EndProjectSection
 EndProject
 Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Docs", "Docs", "{61B1893C-B791-4438-B5EF-86452D53B0D4}"
+	ProjectSection(SolutionItems) = preProject
+		docs\OPC Foundation Client-Server Solution - Technical Document.odt = docs\OPC Foundation Client-Server Solution - Technical Document.odt
+		docs\OPC Foundation Client-Server Solution - Technical Document.pdf = docs\OPC Foundation Client-Server Solution - Technical Document.pdf
+	EndProjectSection
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
