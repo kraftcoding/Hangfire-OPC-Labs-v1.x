@@ -1,4 +1,4 @@
-# Hangfire-OPC-Labs_.NET-4.8
+# Hangfire OPC Labs v1.x 
 
 Hangfire OPC Labs v1.x solution that contains a standard .NET 4.8 MVC project by which the OPC UA Hangfire server is managed. It includes two projects, a console application for tests and a windows service project.
 
