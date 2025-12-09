@@ -11,8 +11,3 @@ For more details, check out the documentation included: https://github.com/kraft
 * https://github.com/kraftcoding/OPC-Foundation-Labs-.Net-4.8
 * https://github.com/kraftcoding/OPC-Foundation-Labs-Server-Client-.Net-4.8
 
-## Others
-
-It is needed to give permissions to the IIS app-pool process to use TCP.
-*	netsh http add urlacl url=http://+:62543/ user=Everyone
-*	netsh http add urlacl url=http://+:62543/LocalServer/ user=IIS APPPOOL\HangfireJobs
